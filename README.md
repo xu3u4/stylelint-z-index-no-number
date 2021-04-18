@@ -1,0 +1,1 @@
+# stylelint-z-index-variable
