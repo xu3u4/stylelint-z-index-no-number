@@ -1,0 +1,36 @@
+{
+  "name": "stylelint-z-index-no-number",
+  "version": "0.0.1",
+  "description": "A stylelint rule to avoid z-index increasing infinitely.",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest test"
+  },
+  "jest": {
+    "verbose": true,
+    "preset": "jest-preset-stylelint",
+    "setupFiles": ["./jest.setup.js"]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xu3u4/stylelint-z-index-no-number.git"
+  },
+  "keywords": [
+    "stylelint-plugin",
+    "z-index"
+  ],
+  "author": "xu3u4",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/xu3u4/stylelint-z-index-no-number/issues"
+  },
+  "homepage": "https://github.com/xu3u4/stylelint-z-index-no-number#readme",
+  "peerDependencies": {
+    "stylelint": "^13.12.0"
+  },
+  "devDependencies": {
+    "jest": "^26.6.3",
+    "jest-preset-stylelint": "^3.0.0",
+    "stylelint": "*"
+  }
+}
