@@ -1,6 +1,6 @@
 {
   "name": "stylelint-z-index-no-number",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A stylelint rule to avoid z-index increasing infinitely.",
   "main": "index.js",
   "scripts": {
@@ -9,7 +9,9 @@
   "jest": {
     "verbose": true,
     "preset": "jest-preset-stylelint",
-    "setupFiles": ["./jest.setup.js"]
+    "setupFiles": [
+      "./jest.setup.js"
+    ]
   },
   "repository": {
     "type": "git",
