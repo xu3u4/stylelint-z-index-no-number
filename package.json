@@ -1,6 +1,6 @@
 {
   "name": "stylelint-z-index-no-number",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "A stylelint rule to avoid z-index increasing infinitely. CSS variable is encouraged.",
   "main": "index.js",
   "scripts": {
