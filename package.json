@@ -1,7 +1,7 @@
 {
   "name": "stylelint-z-index-no-number",
   "version": "0.0.2",
-  "description": "A stylelint rule to avoid z-index increasing infinitely.",
+  "description": "A stylelint rule to avoid z-index increasing infinitely. CSS variable is encouraged.",
   "main": "index.js",
   "scripts": {
     "test": "jest test"
@@ -22,7 +22,7 @@
     "z-index"
   ],
   "author": "xu3u4",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/xu3u4/stylelint-z-index-no-number/issues"
   },
